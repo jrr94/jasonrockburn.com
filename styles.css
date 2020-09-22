@@ -60,6 +60,22 @@ ul {
   padding:10px;
 }
 
+.abilities{
+  text-align: center;
+  padding: 10px;
+}
+
+.work{
+  text-align: center;
+  padding: 10px;
+}
+
+.contact{
+  text-align: center;
+  font-weight: 700;
+  padding: 5px;
+}
+
 .certificates{
   height: auto;
   width: 500px;
@@ -108,7 +124,12 @@ ul {
   height: 500px;
 }
 
-
+.column2surround {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 20px;
+  height: auto;
+  }
 
 .lead {
   font-size: 28px;
