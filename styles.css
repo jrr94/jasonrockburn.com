@@ -1,0 +1,190 @@
+body {
+  color: #333;
+  font-size: 15px;
+  background: #FBF8EF;
+  margin: 0px;
+}
+
+h1, h2, h3{
+  padding-bottom: 20px;
+  margin-top: 20px;
+  border-bottom: 1px solid #FFFFFF;
+  display: inline-block;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+
+}
+p {
+  padding-left: 180px;
+  padding-right: 180px;
+  text-align: center;
+
+
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  width: 80px;
+}
+li {
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+ul {
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+
+.nametitle{
+  color: #EBCF7C;
+}
+.profile {
+  padding-top: 10px;
+  text-align: center;
+  padding: 10px;
+}
+
+.hardware{
+  background-color: #D4D2B2;
+  text-align: center;
+  padding:10px;
+}
+
+.software{
+  text-align: center;
+  padding:10px;
+}
+
+.certificates{
+  height: auto;
+  width: 500px;
+  display: inline-block;
+  padding: 10px;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+#certificates{
+  background-color: #FFFFFF;
+}
+
+.imagecontainer{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.column3{
+  width: 31.3%;
+  float: left;
+  margin: 1%;
+  background-color: #DADADA;
+  text-align: center;
+}
+
+.column2{
+  width: 48%;
+  float: left;
+  margin: 1%;
+  background-color: #FBF8EF;
+  text-align: center;
+}
+
+.column3 p, column2 p{
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.column3surround{
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 20px;
+  height: 500px;
+}
+
+
+
+.lead {
+  font-size: 28px;
+}
+
+.overlay {
+  background-color: #1A1BBD;
+  position: relative;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  opacity: 0.4;
+}
+
+.jumbotron {
+  background-size: cover;
+  text-align: center;
+  margin-bottom: 0px;
+  padding: 0px;
+  background-image: url("neon-background.jpg");
+
+}
+.container {
+  position: relative;
+  top: 25%;
+  z-index: 4;
+  text-align: center;
+  padding: 40px 180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar {
+  border: 0px;
+  background-color: #222222;
+  position: absolute;
+  top: 100%;
+  right: 2%;
+  width: 130px;
+  z-index: 999;
+  float: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: 400;
+  margin: 0px;
+}
+
+
+.scroll-down {
+  height: 80px;
+  width: 110px;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  right: 5%;
+  background-color: #222222;
+  text-align: center;
+  z-index: 6;
+}
+
+.navbar-toggle{
+  position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.contact {
+color: black;
+}
+
+@media (min-width: 768px)
