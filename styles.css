@@ -238,6 +238,8 @@ tr:hover {
 }
 .contact {
 color: black;
+font-size: 50px;
+background-color: #3070FF;
 }
 
 @media (min-width: 768px)
