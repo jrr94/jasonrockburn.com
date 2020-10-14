@@ -1,0 +1,243 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Jason Rockburn</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body style class>
+
+    <div id="top" class="jumbotron" data-src="neon-background.jpg" style="height: 970px;">
+      <div class="container">
+        <div>
+
+
+                  <a href="#profile">Profile</a>
+
+
+                  <a href="#hardware">Hardware</a>
+
+
+                  <a href="#software">Software</a>
+
+
+                  <a href="#abilities">Abilities</a>
+
+
+                  <a href="#work">Work</a>
+
+
+                  <a href="#contact">Contact</a>
+
+
+            </div>
+
+        </div>
+        <h1 class="nametitle">Jason Rockburn</h1>
+        <p class="lead">
+          <a href="#profile">Interactive Resume</a>
+        </p>
+      </div>
+
+      <div class="overlay"></div>
+    </div>
+
+    <div class="profile">
+      <h2 id="profile">A little about me</h2>
+    </div>
+    <div class="column3surround">
+      <div class="column3">
+        <p>I am a recent graduate from the University of Pittsburgh with a
+        Bachelors degree in engineering science. During my schooling I focused
+        in Electrical engineering and received a minor in physics. Engineering
+        Science is a broad major that gives a diverse background of knowledge
+        including electrical systems and material properties which explain
+        crystal structure, magnetic and electrical properties, and fabrication
+        methods.
+        </p>
+      </div>
+      <div class="column3">
+        <p>School and personal projects have made me an
+        exceptional problem solver and analytical thinker. Although my
+        background is broad, I am able to learn and apply new information
+        quickly. Engineering school above all teaches the art of problem
+        solving. Regardless of the problem at hand, I have the abilities and
+        drive to self teach the material and apply it to reach the desired result.
+        </p>
+      </div>
+      <div class="column3">
+        <p>I am passionate about entreperneurship, innovation,
+        and product design. I dream of a career that allows me to use my
+        analytical skills mixed with design and creativity to be on the front
+        line of cutting edge technology that is geared toward the greater good.
+        </p>
+      </div>
+    </div>
+
+    <div class="hardware" id="hardware">
+      <h2>PCB and 3D CAD Designs</h2>
+    </div>
+    <div class="hardware">
+      <div class="column3surround">
+        <img src = "XProjectPCB.png" style="height: 300px;"/>
+        <img src = "LaserDriver.png" style="height: 300px;"/>
+      </div>
+      <div class="column3surround">
+        <div class="column3">
+          <h3>XProject PCB</h3>
+          <p>
+            The PCB  on the left directly plugs into an arduino mega to control a variety
+            of things. It was made to integrate a keypad, LCD display,
+            bidirectional DC motor, and a buzzer. This design was created from
+            multiple different independent designs and integrated with each Other
+            to allow full functionality with one PCB plugged directly into the
+            arduino MEGA.
+          </p>
+        </div>
+        <div class="column3">
+          <h3>Laser Diode Driver</h3>
+          <p>
+            The circuit board on the right was designed in a Lasers and Optics
+            course and is designed to use an arduino nano to run a laser Diode.
+            The laser diode is driven by a power source and has different
+            outputs of the laser given environmental factors such as temperature.
+            This circuit is nearly identical to laser diode drivers on the market
+            going for about $100 and can be manufactured at about 20% that price.
+          </p>
+      </div>
+        <div class="column3">
+          <h3>Other/Current Projects</h3>
+          <p>
+            Other circuits have been designed and are being designed by me
+            currently. I have made a multiplexer array that accurately cycles
+            through 64 spaces and gives data on whether a magnetic piece is
+            present or not for use in an automated chess board. I also
+            created a 2 axis step motor grid for that project. I am currently
+            attempting to make an arduino uno from scratch and am designing
+            the PCB right now. I hope to soon design a project using IOT device
+            and solar panels for Voltaic systems blog.
+          </p>
+      </div>
+    </div>
+      <div class="column3surround">
+          <img src="IOTFinal.png" style="height: 300px;">
+          <img src="ArduinoCase.png" style="height: 300px;">
+      </div>
+      <div class="column3surround">
+        <div class="column3">
+          <h3>XProject 3D AUTOCAD Design</h3>
+          <p>The design on the left is the final iteration of the XProject
+          3D design. The design is used to hold a servo motor to be mounted
+          on the front of the piece in order to move a separately designed
+          and tested 'flap' for blocking the nest cam housed on the side.
+          The back plate on this design allows for a neopixel to be mounted
+          and shows a specified color depending on the state of the system.
+          The system was able to block the camera completely, open completely
+          as well as have an intermediate state to allow the camera to
+          gather video information for a designated interval after blocking
+          the camera for a seperately designated interval to allow for partial
+          blockage of the camera. On top of this functionality the user is able
+          to cut microphone feed and power ot the camera. In the fron of the
+          case there is a small slot for an IR sensor to be placed to allow the
+          user to toggle states with a remote.</p>
+        </div>
+        <div class="column3">
+            <h3>Arduino MEGA Casing with Battery Compartment</h3>
+            <p>The design on the right is a snap case designed to hold an
+              arduino MEGA as well as a rechargable battery in case the
+              arduino became unplugged. This snap case allows for the USB
+              cable for the arduino to be plugged in if desired, as well as a
+              slot for the power plug to attach to the battery and acoompanying
+              circuit to ensure the battery does not overcharge. Air vents were
+              added to the top of the snap case to ensure the arduino did not
+              have overheating issues. The bottom inside of the case was
+              designed with small pins which the arduino would sit directly on
+              to make sure the arduino was held in place. The covering for the
+              battery enclosure is seperate from that which holds the Arduino
+              and is much more easily removed.</p>
+        </div>
+        <div class="column3">
+          <h3>Smart Chess</h3>
+          <p>Not pictured above are multiple simple designs for the smart Chess
+            board. For the smart chess project, it was necessary to build
+            multiple small connectors for the 2-axis rail system as well
+            as a design for the chessboard which was made with a lasercutter.
+            Along with the pieces needed to connect the axis system, it was
+            necessary to solder together 64 hall effect sensors to attach to
+            the Multiplexer pcb board to cycle through states of the board.
+            Completing this part of the project greatly improved my soldering
+            and electronics organizational skills requiring a compact system
+            that would not interfere with the axis or the chess board.</p>
+      </div>
+    </div>
+
+    </div>
+    </div>
+
+    <div class="software" id="software">
+      <h2>Code Projects and Education Certificates</h2>
+    </div>
+    <div class="software">
+      <h3>Certificates</h3>
+    </div>
+    <div class="imagecontainer">
+      <div class="column2">
+        <img src="MatFundamentals.png" class="certificates"/>
+        <img src="MatDeepOnramp.png" class="certificates"/>
+      </div>
+      <div class="column2">
+        <img src="MatMachineOnramp.png" class="certificates"/>
+        <img src="MatOnramp.png" class="certificates"/>
+      </div>
+      <div class="column2">
+        <img src="AutomatingCert.png" class="certificates"/>
+      </div>
+    </div>
+
+    <div class="abilities" id="abilities">
+      <h2>Abilities and levels of profficiency</h2>
+      <table class="center">
+        <tr>
+          <td>Altium</td>
+          <td> <img src="star.png" class="rating"> <img src="star.png" class="rating"> <img src="star.png" class="rating"> <img src="star.png" class="rating"> </td>
+        </tr>
+        <tr>
+          <td>C++</td>
+          <td> <img src="star.png" class="rating"> <img src="star.png" class="rating"> <img src="star.png" class="rating"> </td>
+        </tr>
+
+        <tr>
+          <td>Soldering</td>
+          <td> <img src="star.png" class="rating"> <img src="star.png" class="rating"> <img src="star.png" class="rating"> <img src="star.png" class="rating"> <img src="star.png" class="rating"></td>
+        </tr>
+        <tr>
+          <td>Python</td>
+          <td><img src="star.png" class="rating"> <img src="star.png" class="rating"> <img src="star.png" class="rating"> <img src="star.png" class="rating"></td>
+        </tr>
+
+        <tr>
+          <td>AutoCAD</td>
+          <td> <img src="star.png" class="rating"> <img src="star.png" class="rating"> <img src="star.png" class="rating"> </td>
+        </tr>
+        <tr>
+          <td>Communication</td>
+          <td> <img src="star.png" class="rating"> <img src="star.png" class="rating"> <img src="star.png" class="rating"> <img src="star.png" class="rating"><img src="star.png" class="rating"></td>
+        </tr>
+
+      </table>
+    </div>
+  <!--
+    <div class="work" id="work">
+      <h2>Work experience</h2>
+    </div>
+  -->
+    <div class="contact">
+      <h2>contact</h2>
+      <p>
+        <a href="mailto:jason.rockburn@ieee.org" class="contact" id="contact">Feel free to email me!</a>
+      </p>
+    </div>
+  </body>
+
+
+</html>
